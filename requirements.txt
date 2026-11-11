@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+python-multipart
+paddleocr
+pycloudflared
+# instale o paddlepaddle (CPU ou GPU) conforme sua versão de CUDA:
+# https://www.paddlepaddle.org.cn/install/quick
+#
+#Cuda 11.8 || 12.6 || 12.9
+ #python -m pip install paddlepaddle-gpu==3.3.0 -i https://www.paddlepaddle.org.cn/packages/stable/cu118/
+ #python -m pip install paddlepaddle-gpu==3.3.0 -i https://www.paddlepaddle.org.cn/packages/stable/cu126/
+ #python -m pip install paddlepaddle-gpu==3.3.0 -i https://www.paddlepaddle.org.cn/packages/stable/cu129/
